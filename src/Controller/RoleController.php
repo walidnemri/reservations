@@ -22,6 +22,7 @@ class RoleController extends AbstractController
     {
         return $this->render('role/index.html.twig', [
             'roles' => $roleRepository->findAll(),
+            
         ]);
     }
 
